@@ -1,0 +1,24 @@
+Python 15 | INHERITANCE
+
+Acquiring all the Attributes (Variables) and Methods from one class to another class
+
+Benefit -
+ We can re-use the code which saves time
+Avoid duplication
+
+parent --> properties
+child --> parent properties
+
+Class A -->  a, b, c  m1() m2 ()    --> A is parent of B class    [Base class / Super class]
+Class B --> x, y, z   m3()          --> B is child of A class     { Sub class / Derived class]
+
+When this is useful ??
+
+1. Code reuse
+2. Duplication
+
+Types of Inheritance
+1. Single
+2. Multi level
+3. Hierarchy
+4. Multiple

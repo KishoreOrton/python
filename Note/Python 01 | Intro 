@@ -1,0 +1,82 @@
+Python 01 | Intro
+
+
+Intro
+
+High level general purpose programming language
+[High level - User friendly everyone will easily understand ]
+[general purpose - Develop any kind of applications web, Mobile]
+
+Open Source language
+[Free software , Even Java is not free]
+
+Platform independent
+[Run program in all the platforms like Java]
+
+
+KEYWORDS
+
+- Reserved words in Python
+
+#print(keyword.kwlist)
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await’,'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally’,'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+DATATYPES
+
+# x=10
+Variable [Container] =  Value
+
+No need to specify the data types like int , Stings bczo python is a dynamic programming lang
+as soon as we created a variable it automatically it will consider as int, sting etc by default
+
+If we change Number to sting with the same variable x it will autmatical changes from int to string so it is called as dynamic programming lang
+
+x = 10
+y = 'kishore'
+z = True
+A = ‘A’
+
+#print(type(x))  O/P <class 'int'>
+#print(type(y))  O/P <class 'str'>
+#print(type(z))  O/P <class 'bool'>
+#print(type(A))  O/P <class 'str'>
+
+#print multiple variables
+print(x,y,z,n)
+
+#Assign multiple variables
+a,b,c = 10,20,'Hello'
+print(a)
+print(c)
+print(a,b,c)
+
+#Same value in variables
+t=y=u = 10
+print(t)
+print(y)
+
+#Interchange value in variables
+x=10
+y=20
+
+x,y=y,x
+print(y)   O/P 10
+
+#value in variables change
+x=10
+print(x)   O/P 10
+x=100
+print(x)   O/P 100
+
+#variables deletion
+x = 100
+print(x)
+del x
+print(x)
+
+
+
+
+

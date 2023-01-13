@@ -1,0 +1,99 @@
+Python 04 | Control Statements
+
+# and - Both condition is TRUE
+# OR - Any one condition is TRUE
+
+
+CONDITIONAL STATEMENTS
+
+age = input("Enter the age : ")
+num = input("Enter the num : ")
+
+if int(age) >= 18 and int(age) <= 105:
+    print("Right to vote")
+elif int(age) <= 0 or int(age) > 105:
+    print("Invalid input")
+else:
+    print("Not the age for vote")
+
+if int(num) % 2 == 0:
+    print("Even")
+else:
+    print("Not Even")
+
+# ternary Operator
+print("Even") if int(num) % 2 == 0 else print("ODD")
+
+var = {print("EVEN"), print("EVEN Number")} if int(num) % 2 == 0 else {print("ODD"), print("ODD Number")}
+
+LOOPING STATEMENTS
+
+Range Function :-
+
+# range(10)   0,...10
+# range(1,10) 1,...10
+# range(1,10,2)  Startpoint, Endingpoint, Incrementation
+# range(10, 0, -2) Dec
+# range(-10, -5, 2)
+# range(-10, -5)
+
+Looping
+While
+For
+
+Initilazation
+Condition
+Incrementation
+
+WHILE LOOP
+
+num = input("Enter the Number")
+
+while int(num) <= 10:
+    print(int(num))
+    num = int(num) + 1
+print("Done!")
+
+i = 10
+while i >= 1:
+    print(i)
+    i = i - 1
+print("Done!")
+
+
+FOR LOOP
+
+for i in range(10):
+    print(i)
+
+for i in range(5, 10):
+    print(i)
+
+# Even number
+for i in range(0, 10, 2):
+    print(i)
+
+# Odd number
+for i in range(0, 10, 2):
+    print(i)
+
+JUMPING STATEMENTS
+
+Break
+Continue
+
+# This will break the statement
+
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+print("Completed")
+
+# This will cont the statement and the i = = 5 is skipped
+
+for i in range(10):
+    if i == 5 or i == 4:
+        continue
+    print(i)
+print("Completed")

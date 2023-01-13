@@ -1,0 +1,81 @@
+Python 17 | MODULE
+
+Module - collection of Functions and Classes [Variable & Methods]
+
+Calculator.py
+
+num1 = input("Enter your num 1: ")               # User input
+num2 = input("Enter your num 2: ")
+
+
+def add(num1, num2):
+    print(int(num1) + int(num2))
+
+
+def sub(num1, num2):
+    print(int(num1) - int(num2))
+
+
+def Mul(num1, num2):
+    print(int(num1) * int(num2))
+
+input calculator.py
+
+import Calculator                                      # Importing the module to access the methods
+
+Calculator.add(Calculator.num1, Calculator.num2)
+Calculator.sub(Calculator.num1, Calculator.num2)
+Calculator.Mul(Calculator.num1, Calculator.num2)
+
+
+------------------ Other example ----------------
+A1.py
+
+def X():
+    print("A1-X")
+
+
+def Y():
+    print("A1-Y")
+
+A2.py
+
+def X():
+    print("A1-X")
+
+
+def Y():
+    print("A1-Y")
+
+A3.py
+
+import A1
+import A2             # We can import both anc call the function using the module name if we have same method name
+
+# also no issues
+
+A1.X()
+A2.X()
+A1.Y()
+A2.Y()
+
+
+# Using class
+
+class A1:
+    def A(self):
+        print("A1 Class A method")
+
+
+class A2:
+    def A(self):
+        print("A2 Class A method")
+
+
+import class_A1
+
+A1_obj = class_A1.A1()                      # Object = modulename.class name
+A2_obj = class_A1.A2()
+
+A1_obj.A()
+A2_obj.A()

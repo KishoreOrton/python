@@ -1,0 +1,16 @@
+Python 03 | Formatting Output
+
+
+Name = input("Enter the Name ")
+Ph = input("Enter the PhoneNumber ")
+Email = input("Enter the Email ")
+
+# The data type will consider as string for user input even the user enters number also
+print(type(Ph))
+
+print("Name of the user is {} , Mobile number : +91{} and Email ID - {}".format(Name, Ph, Email))
+
+# Other methods
+print(str(Name))
+print(int(Ph))
+

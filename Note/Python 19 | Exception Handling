@@ -1,0 +1,11 @@
+Python 18 | Exception Handling
+
+Python try...except Block :-
+The try...except block is used to handle exceptions in Python. Here's the syntax of try...except block:
+
+Catching Specific Exceptions in Python :-
+For each try block, there can be zero or more except blocks. Multiple except blocks allow us to handle each exception differently.
+
+Python try with else clause :-
+In some situations, we might want to run a certain block of code if the code block inside try runs without any errors.
+

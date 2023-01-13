@@ -1,0 +1,18 @@
+Python 16 | Overriding and Overloading [polymorphism]
+
+
+Method Overloading in Python
+What is Method Overloading?
+In oops we have different types of elements like Object, Class and etc. in these elements we implement the re-usability in tow elements are Inheritance and Polymorphism.
+In this topic, Method overloading is in the Polymorphism.
+
+Polymorphism is a technique of producing different functionality with a single format.Here we have two types of polymorphism.
+ Method Overloading is the class having methods that are the same name with different arguments.
+ Arguments different will be based on a number of arguments and types of arguments.
+ It is used in a single class.
+ It is also used to write the code clarity as well as reduce complexity.
+
+ Method Overriding:
+Method Overriding is the method having the same name with the same arguments.
+It is implemented with inheritance also.
+It mostly used for memory reducing processes.

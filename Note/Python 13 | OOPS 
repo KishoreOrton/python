@@ -1,0 +1,67 @@
+Python 13 | OOPS
+
+Python - Structured + Object Oriented
+
+
+class
+object
+Inheritance
+polymorphism
+
+
+CLASS :- Collection of variable and methods [Don't occupy any memory]
+
+OBJECT:- Object is the instance of the class [occupy some amount of memory]
+
+
+Class - Animals
+Objects - Dog, Cat, Lion, Tiger ....
+
+FUNCTION :- We can create without class
+METHOD  :- Function write inside a class it is METHOD  [Function within the class]
+
+class maths:
+    a, b = 10, 20
+
+    def add(self):
+        print(self.a + self.b)
+
+    def Mul(self):
+        print(self.a * self.b)
+
+
+M1 = maths()
+M1.add()
+M1.Mul()
+
+# Global , Local and Class Variables
+
+a, b = 10, 20
+
+
+class allvar:
+    i, j = 10, 5
+
+    def method(self, x, y):
+        print("Global variable", a + b)
+        print("Class Variable", self.i + self.j)
+        print(x + y)
+
+
+Call = allvar  # Call the method
+
+# same variable name
+
+a, b = 10, 20
+
+
+class allvar1:
+    a, b = 10, 5
+
+    def method(self, a, b):
+        print("Global variable", a + b)
+        print("Class Variable", self.a + self.b)
+        print(a + b)
+
+
+Run = allvar1  # Call the method using variable name

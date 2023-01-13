@@ -1,0 +1,40 @@
+Python 11 | Functions [Arguments]
+
+def fun(i, j):
+    print(i, j)
+
+
+fun(10, 20)  # Positional arguments
+fun(j=5, i=15)  # Keyword arguments
+
+
+# Default value on positional parameters
+
+def abc(a, b=10):
+    print(a, b)
+
+
+abc(100, 200)
+abc(100)  # J is not assigned bozo it has already mentioned while creating the functions
+
+
+def Welcome(name, greetings="HELLO"):
+    print(greetings, " ", name)
+
+
+name = input("Enter the UserName ")  # Getting username from input
+
+Welcome(name)  # Getting username from input
+Welcome("KISHORE KUMAR B")
+
+
+# Greatest value
+
+def gre(s, d):
+    if s > d:
+        return s, d
+    else:
+        return s, d
+
+
+print(gre(10, 20))
